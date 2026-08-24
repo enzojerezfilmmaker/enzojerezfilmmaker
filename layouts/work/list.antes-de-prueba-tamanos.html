@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work · Enzo Jerez</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: #111;
+            color: #f2f2f2;
+            font-family: Georgia, serif;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 5%;
+        }
+
+        .logo {
+            font-size: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .work-page {
+            padding: 150px 80px 120px;
+            max-width: 1100px;
+        }
+
+        .eyebrow {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            opacity: 0.6;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 7vw, 6rem);
+            font-weight: normal;
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            margin: 0 0 100px;
+        }
+
+        .film:not(:last-child) {
+            margin-bottom: 180px;
+        }
+
+        .film-number {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            opacity: 0.5;
+            margin-bottom: 18px;
+        }
+
+        .film-info img {
+            display: block;
+            max-width: 100%;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: normal;
+            margin: 25px 0 10px;
+        }
+
+        .film-type {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            opacity: 0.6;
+        }
+
+        .film-info p:not(.film-type) {
+            max-width: 700px;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin: 25px 0;
+        }
+
+        .film-info a {
+            color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            font-size: 0.8rem;
+            text-decoration: none;
+            letter-spacing: 0.08em;
+        }
+
+        .film-info a:hover {
+            opacity: 0.6;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                padding: 25px 6%;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 0.65rem;
+            }
+
+            .work-page {
+                padding: 110px 6% 80px;
+            }
+
+            h1 {
+                margin-bottom: 70px;
+            }
+
+            h3 {
+                font-size: 1.6rem;
+            }
+
+            .film-info p:not(.film-type) {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Enzo Jerez</div>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/work/">Work</a></li>
+            <li><a href="/workshops/">Workshops</a></li>
+            <li><a href="/mentoring/">Mentoring</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/testimonials/">Testimonials</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="work-page">
+        <div class="section-intro">
+        <div class="eyebrow">Selected Work</div>
+        <h1>Films</h1>
+        </div>
+
+<section id="work" class="work">
+            <div class="section-intro">
+                <div class="eyebrow">Selected Work</div>
+                <h2>Films</h2>
+            </div>
+
+            <article class="film">
+                <div class="film-info">
+                    <div class="film-number">01</div>
+                    <img src="/images/tatjana-hugo.jpg" alt="Tatjana Is Not Her Body" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <h3>Tatjana Is Not Her Body</h3>
+                    <p class="film-type">Short Film</p>
+                    <p>
+                        A woman begins to question where, within her own body,
+                        she truly lives.
+                    </p>
+                    <a href="https://vimeo.com/173775443" target="_blank">Watch on Vimeo →</a>
+                </div>
+            </article>
+
+            <article class="film">
+                <div class="film-info">
+                    <div class="film-number">02</div>
+                    <img src="/images/mysteries.png" alt="Mysteries of Consciousness" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <h3>Mysteries of Consciousness</h3>
+                    <p class="film-type">Short Film</p>
+                    <p>
+                        A group of strangers meet in a forest near a temple,
+                        surrounded by a lake that seems to draw them together,
+                        forcing them to speak of the things they have never
+                        told anyone.
+                    </p>
+                    <a href="https://vimeo.com/131138711" target="_blank">Watch on Vimeo →</a>
+                </div>
+            </article>
+
+            <article class="film">
+                <div class="film-info">
+                    <div class="film-number">03</div>
+                    <img src="/images/hamla-1.png" alt="HAMLA" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <img src="/images/hamla-2.png" alt="HAMLA" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <h3>HAMLA</h3>
+                    <p class="film-type">Short Film</p>
+                    <p>
+                        On a summer night of partying in Berlin, a young woman
+                        loses consciousness and wakes up alone in a forest.
+                        Realizing that the parties and friendships that once
+                        fulfilled her no longer satisfy her, she chooses to
+                        disappear from that life and become a hermit.
+                    </p>
+                    <a href="https://vimeo.com/139392776" target="_blank">Watch on Vimeo →</a>
+                </div>
+            </article>
+
+            <article class="film">
+                <div class="film-info">
+                    <div class="film-number">04</div>
+                    <img src="/images/my-beloved-mind.png" alt="My Beloved Mind" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <h3>My Beloved Mind</h3>
+                    <p class="film-type">Short Film</p>
+                    <p>
+                        A person at home prepares an Ayurvedic remedy of milk and nuts
+                        while reflecting on life and on how much there is to be grateful
+                        for — especially for their faithful companion, the mind.
+                    </p>
+                    <a href="https://vimeo.com/326587611" target="_blank">Watch on Vimeo →</a>
+                </div>
+        
+    </article>
+            <article class="film">
+                <div class="film-info">
+                    <div class="film-number">05</div>
+                    <img src="/images/BUILDING_A_CHARACTER.png" alt="Building a Character: Vania" style="width: 360px; height: auto; margin-bottom: 18px;">
+                    <h3>Building a Character: Vania</h3>
+                    <p class="film-type">Character Work</p>
+                    <p>
+                        Building a character through an organic approach to acting,
+                        directing, and audiovisual creation.
+                    </p>
+                    <a href="https://vimeo.com/196288190" target="_blank">Watch on Vimeo →</a>
+                </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">06</div>
+                <img src="/images/PEOPLE_MEETING_PEOPLE.png" alt="People Meeting People Without Sense" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>People Meeting People Without Sense</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    People meeting people without sense.
+                </p>
+                <a href="https://vimeo.com/213580132" target="_blank">Watch on Vimeo →</a>
+            </div>
+        </article>
+
+    
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">07</div>
+                <img src="/images/FOOTAGE_OF_MYSTERIES.png" alt="Footage of Rehearsal for The Mysteries of Consciousness-Trilogy" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Footage of Rehearsal for "The Mysteries of Consciousness-Trilogy"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/114983552" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">08</div>
+                <img src="/images/Casting.png" alt="Casting" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Casting</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/196269046" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">09</div>
+                <img src="/images/Schauspielerin_Amaya.png" alt="Schauspielerin: Amaya Rodríguez Blanco" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Schauspielerin: Amaya Rodríguez Blanco</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/215479479" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">10</div>
+                <img src="/images/EXAMPLE_OF_MOOD_FOR__ACTORS.png" alt="Example of Mood for Actor's Reel Gollywood" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Example of Mood for Actor's Reel "Gollywood"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/175282963" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">11</div>
+                <img src="/images/PURNA_NEEDS_TO_LEAVE.png" alt="Purna Needs to Leave" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Purna Needs to Leave</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/168439908" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">12</div>
+                <img src="/images/NOBODY_IN_THE_CITY.png" alt="Nobody in the City" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Nobody in the City</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/403659026" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">13</div>
+                <img src="/images/GUE.png" alt="Gué" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Gué</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/385188114" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">14</div>
+                <img src="/images/PLANET_MERCURY.png" alt="Planet Mercury" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Planet Mercury</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/321082708" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">15</div>
+                <img src="/images/OUROBOROS.png" alt="Ouroboros" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Ouroboros</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/385186535" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">16</div>
+                <img src="/images/DIAMAR´S_PAROXISM.png" alt="Diamar's Paroxism" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Diamar's Paroxism</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/131151564" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">17</div>
+                <img src="/images/PARVATI IN FOREST.png" alt="Parvati in Forest" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Parvati in Forest</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://vimeo.com/172435808" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">18</div>
+                <img src="/images/APAURUSHEYA.png" alt="Apaurusheya & El" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Apaurusheya & El</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2841431225956680/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">19</div>
+                <img src="/images/FUNNY_MISTAKES.png" alt="Funny Mistakes" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Funny Mistakes</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2806795329420270/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">20</div>
+                <img src="/images/Scene_4_for_SIE&ER.png" alt="Scene 4 for Sie & Er" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Scene 4 for "Sie & Er"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2783060468460423/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">21</div>
+                <img src="/images/PURA_TELEPATIA_PURA.png" alt="Scene Rehearsal: Pura telepatía pura" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Scene Rehearsal: "Pura telepatía pura"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYb28UU6s-/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">22</div>
+                <img src="/images/HALF_SIBLINGS.png" alt="Half Siblings" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Half Siblings</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2750067755093028/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">23</div>
+                <img src="/images/COMPETITION_OR_COLLABORATION.png" alt="Competition or Collaboration" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Competition or Collaboration</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2678628958903575/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">24</div>
+                <img src="/images/CHANGING_SKINS.png" alt="Changing Skins" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Changing Skins</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2556920004407805/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">25</div>
+                <img src="/images/A–GOOD-EXAMPLE.png" alt="A Good Example of Organic..." style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>A Good Example of Organic...</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/groups/Organiccreationsfilms/permalink/2539950529438086/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">26</div>
+                <img src="/images/CLARA_WOOLF.png" alt="Clara Woolf - The Best Spanish Actress in Berlin" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Clara Woolf - The Best Spanish Actress in Berlin</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcee83Jl5/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">27</div>
+                <img src="/images/PURCAST_NAMBER....png" alt="Purcast Number One: La Copa" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Purcast Number One: La Copa</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcuscdrd0/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">28</div>
+                <img src="/images/THE_STOP.png" alt="The Stop /// La Parada" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>The Stop /// La Parada</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcDDzdkT0/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">29</div>
+                <img src="/images/ARTIST_DIMA.png" alt="Artist Dima Miroshnishenko & Actress Kassy Valencia" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Artist Dima Miroshnishenko & Actress Kassy Valencia</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcHJ_AvgE/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">30</div>
+                <img src="/images/EKADASI_MOON.png" alt="Ekadasi Moon in Berlin" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Ekadasi Moon in Berlin</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcPkc4CQJ/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">31</div>
+                <img src="/images/Silent_Footage.png" alt="Silent Footage: Quality of Life Demands Efforts" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Silent Footage: "Quality of Life Demands Efforts"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYcWlYAXNQ/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">32</div>
+                <img src="/images/WANTED_COMPOSER.png" alt="Wanted Composer for a Short-Film Project" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Wanted Composer for a Short-Film Project</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYd8pFDkn7/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">33</div>
+                <img src="/images/SCENE_REHEARSAL_FOR_THE_SHORT_FILM_PROJECT_2021.png" alt="Scene Rehearsal for the Short-Film Project 2021" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Scene Rehearsal for the Short-Film Project "2021"</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYdfjgOLQ-/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">34</div>
+                <img src="/images/LINE.png" alt="Line (2018)" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>"Line" (2018)</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYdkCnU6xi/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">35</div>
+                <img src="/images/EXPERIMENT.png" alt="Experiment: The Unsinkable Molly Braun" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>Experiment: The Unsinkable Molly Braun</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IYdcL7obz1/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">36</div>
+                <img src="/images/ANTIQUA´S_PURIFICATION.png" alt="ANTIQUA´S PURIFICATION" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>ANTIQUA´S PURIFICATION</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IZEIZkvDYf/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">37</div>
+                <img src="/images/EV_WA.png" alt="EV WA" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>EV WA</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/1320086234/videos/pcb.10221956112994831/10221956072353815" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">38</div>
+                <img src="/images/NAHUEL_SHADOW_THEATRE_WORKSHOP.png" alt="NAHUEL: SHADOW THEATRE WORKSHOPS" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>NAHUEL: SHADOW THEATRE WORKSHOPS</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IZFRD6DIWk/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">39</div>
+                <img src="/images/ANTIQUA_FELICIDAD_NO_BASTA.png" alt="ANTIQUA(ENSAYO PARA FELICIDAD NO BASTA)" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>ANTIQUA(ENSAYO PARA FELICIDAD NO BASTA)</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IZG5gIMLcy/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">40</div>
+                <img src="/images/REELS_IN_EXCHANGE.png" alt="HABLE SUS MEMORIAS" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>HABLE SUS MEMORIAS</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/1320086234/videos/pcb.10221276363561520/10221276305080058" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">41</div>
+                <img src="/images/PARA_SENTIR_PAZ.png" alt="PARA SENTIR PAZ" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>PARA SENTIR PAZ</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IZGSxIxcTu/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">42</div>
+                <img src="/images/FESTIVAL_OF_PROPOSALS_2020_SOPHIE.png" alt="FESTIVAL OF PROPOSALS 2020 - SOPHIE" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>FESTIVAL OF PROPOSALS 2020 - SOPHIE</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://fb.watch/IZHcnMvp5X/" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">43</div>
+                <img src="/images/FESTIVAL_OF_PROPOSALS_2020_MAZU.png" alt="FESTIVAL OF PROPOSALS 2020 - MAZU" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>FESTIVAL OF PROPOSALS 2020 - MAZU</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10223256131534482" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">44</div>
+                <img src="/images/HAVE_FUN_WITH_US.png" alt="HAVE FUN WITH US" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>HAVE FUN WITH US</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10221066069784307" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">45</div>
+                <img src="/images/DIVIERTETE_CON_NOSOTROS.png" alt="DIVIÉRTE CON NOSOTROS" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>DIVIÉRTE CON NOSOTROS</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10221065904940186" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">46</div>
+                <img src="/images/WORKING_ORGANICALLY_BENJAMIN.png" alt="WORKING ORGANICALLY - BENJAMIN" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>WORKING ORGANICALLY - BENJAMIN</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10218894876065821" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">47</div>
+                <img src="/images/9_PLEASURES.png" alt="9 PLEASURES" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>9 PLEASURES</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10218635311136860" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">48</div>
+                <img src="/images/FRIDA_IN_HER_POOL.png" alt="FRIDA IN HER POOL" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>FRIDA IN HER POOL</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10218046935787844" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">49</div>
+                <img src="/images/IT_WILL_HEAL.png" alt="IT WILL HEAL" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>IT WILL HEAL</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10211114149832528" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">50</div>
+                <img src="/images/REHEARSAL_BATH_OF_THE_ELEPHANT.png" alt="REHEARSAL BATH OF THE ELEPHANT" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>REHEARSAL BATH OF THE ELEPHANT</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/1320086234/videos/pcb.10213930032107825/102" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">51</div>
+                <img src="/images/YOGA_DANCE_WITH_MOON.png" alt="YOGA DANCE WITH MOON" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>YOGA DANCE WITH MOON</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10217187482862058" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">52</div>
+                <img src="/images/THE_FIGHT.png" alt="THE FIGHT" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>THE FIGHT</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216451109093174" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">53</div>
+                <img src="/images/CLEO_SEARCHING_PLACE_POWER.png" alt="CLEO SEARCHING PLACE OF POWER" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>CLEO SEARCHING PLACE OF POWER</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216413290427731" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">54</div>
+                <img src="/images/HORROR´S MILK.png" alt="HORROR´S MILK" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>HORROR´S MILK</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216364772334809" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">55</div>
+                <img src="/images/UNIVERSAL_BODY.png" alt="UNIVERSAL BODY" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>UNIVERSAL BODY</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216283135213932" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">56</div>
+                <img src="/images/LABYRINTH_SHADOW´S_THEATRE.png" alt="LABYRINTH SHADOW´S THEATRE" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>LABYRINTH SHADOW´S THEATRE</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216243632426387" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">57</div>
+                <img src="/images/KIKO_THE_OWNER.png" alt="KIKO THE OWNER" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>KIKO THE OWNER</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216104854077015" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">58</div>
+                <img src="/images/MICHAELLA_1_METER_ABSTAND.png" alt="MICHAELLA 1 METER ABSTAND" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>MICHAELLA 1 METER ABSTAND</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216073538334141" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">59</div>
+                <img src="/images/CLEO_ON_SUNDAY.png" alt="CLEO ON SUNDAY" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>CLEO ON SUNDAY</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/10216068162199741" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">60</div>
+                <img src="/images/COMPOSER&MUSICIAN_VITO_CASSANO.png" alt="COMPOSER & MISICIAN VITO CASSANO" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>COMPOSER & MISICIAN VITO CASSANO</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.facebook.com/reel/264578581496087" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+        <article class="film">
+            <div class="film-info">
+                <div class="film-number">61</div>
+                <img src="/images/FESTIVAL_OF_PROPOSALS_RONALD.png" alt="FESTIVAL OF PROPOSALS - COMPOSER & SOUND DESIGNER RONALD SMITH" style="width: 360px; height: auto; margin-bottom: 18px;">
+                <h3>FESTIVAL OF PROPOSALS - COMPOSER & SOUND DESIGNER RONALD SMITH</h3>
+                <p class="film-type">Audiovisual Work</p>
+                <p>
+                    Audiovisual work by Enzo Jerez.
+                </p>
+                <a href="https://www.youtube.com/watch?v=njJMzfONMV0" target="_blank">Watch / View →</a>
+            </div>
+        </article>
+
+        <article class="work-item">
+            <img src="/images/WANTED_6_ACTRESSES.png" alt="WANTED 6 ACTRESSES">
+            <h2>Nº 62 — WANTED 6 ACTRESSES</h2>
+            <p><a href="https://fb.watch/J6rT7kmq4z/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/MASNAUS_DREAM.png" alt="MASNAU´S DREAM" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 63 — MASNAU´S DREAM</h2>
+            <p><a href="https://youtu.be/YrWAkRHLxMo?si=qGma5BJvghXj5mdi" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/BERNADETTE.png" alt="BERNADETTE PRODUCTIONS" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 64 — BERNADETTE PRODUCTIONS</h2>
+            <p><a href="https://www.youtube.com/watch?v=MJdj4xeZtX8" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/TRAPPED.png" alt="TRAPPED" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 65 — TRAPPED</h2>
+            <p><a href="https://fb.watch/J6tAIb-C9o/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/KIKO_IN_LABYRINTH.png" alt="KIKO IN LABYRINTH" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 66 — KIKO IN LABYRINTH</h2>
+            <p><a href="https://fb.watch/J6tN4ZTUPv/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/TALENTOSA_ACTRIZ_INFANTIL.png" alt="TALENTOSA ACTRIZ INFANTIL" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 67 — TALENTOSA ACTRIZ INFANTIL</h2>
+            <p><a href="https://fb.watch/J6tRbaHqby/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/LINDA.png" alt="LINDA" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 68 — LINDA</h2>
+            <p><a href="https://fb.watch/J6tWIYzxyM/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/BLANCA&PAULA.png" alt="BLANCA & PAULA (Bitte bleib!)" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 69 — BLANCA & PAULA (Bitte bleib!)</h2>
+            <p><a href="https://fb.watch/J6t_Cu-nce/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/CALLING_FOR_PROJECT_Labyrinth.png" alt="CALLING FOR PROJECT &quot;Labyrinth&quot;" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 70 — CALLING FOR PROJECT "Labyrinth"</h2>
+            <p><a href="https://fb.watch/J6u8BZtMD8/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/REHEARSAL_WITH_THE_BEST....png" alt="REHEARSAL WITH THE BEST..." style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 71 — REHEARSAL WITH THE BEST...</h2>
+            <p><a href="https://fb.watch/J6ugYrxEfs/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/WOHNUNGSSUCHE.png" alt="WOHNUNGSSUCHE" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 72 — WOHNUNGSSUCHE</h2>
+            <p><a href="https://fb.watch/J6ul-qZCY4/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/CASTING_FOR_TERESA.png" alt="CASTING FOR TERESA" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 73 — CASTING FOR TERESA</h2>
+            <p><a href="https://fb.watch/J6uq3Dt9hr/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/MARINAS_DREAM.png" alt="MARINA´S DREAM" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 74 — MARINA´S DREAM</h2>
+            <p><a href="https://fb.watch/J6uE7-RauO/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/MARINA_HUYE.png" alt="MARINA HUYE" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 75 — MARINA HUYE</h2>
+            <p><a href="https://fb.watch/J6uOPpWfjS/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/DOMINGO_7.png" alt="DOMINGO 7" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 76 — DOMINGO 7</h2>
+            <p><a href="https://fb.watch/J6vRx_4GHP/" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/SEQUENCE_DON_ANTONIO_MEETS_ARIADNA.png" alt="SEQUENCE &quot;Don Antonio meets Ariadna&quot;" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 77 — SEQUENCE "Don Antonio meets Ariadna"</h2>
+            <p><a href="https://vimeo.com/172442895" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/BLANCHE.png" alt="BLANCHE" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 78 — BLANCHE</h2>
+            <p><a href="https://vimeo.com/169881434" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/THE_WAITING.png" alt="THE WAITING" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 79 — THE WAITING</h2>
+            <p><a href="https://vimeo.com/172288021" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/PURNA–IS–NOT–HER–BODY.png" alt="PURNA IS NOT HER BODY" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 80 — PURNA IS NOT HER BODY</h2>
+            <p><a href="https://vimeo.com/155664194" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/SCENE_REHEARSAL_VALENTINA_WAITS.png" alt="SCENE REHEARSAL &quot;Valentina waits&quot;" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 81 — SCENE REHEARSAL "Valentina waits"</h2>
+            <p><a href="https://vimeo.com/149565665" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/SCENE_REHEARSAL_MAILINS_ABORTION.png" alt="SCENE REHEARSAL &quot;Mailin´s abortion&quot;" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 82 — SCENE REHEARSAL "Mailin´s abortion"</h2>
+            <p><a href="https://vimeo.com/143455515" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/REHEARSAL_FOR_NO_FEAR.png" alt="Rehearsal for &quot;No fear&quot;" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 83 — Rehearsal for "No fear"</h2>
+            <p><a href="https://vimeo.com/132427039" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/DUAL_MIND.png" alt="DUAL MIND" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 84 — DUAL MIND</h2>
+            <p><a href="https://vimeo.com/137047543" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/ONCE_UPON_A_TIME_OPHELIA.png" alt="ONCE UPON A TIME OPHELIA" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 85 — ONCE UPON A TIME OPHELIA</h2>
+            <p><a href="https://vimeo.com/132338611" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/KAZIBAZE_THEATER.png" alt="KAZIBAZE THEATER - ABSENDER UNBEKANNT" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 86 — KAZIBAZE THEATER - ABSENDER UNBEKANNT</h2>
+            <p><a href="https://vimeo.com/384980246" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/THE_SEED_OF_ENJOYMENT.png" alt="THE SEED OF ENJOYMENT" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 87 — THE SEED OF ENJOYMENT</h2>
+            <p><a href="https://vimeo.com/333213794" target="_blank" rel="noopener">View work</a></p>
+        </article>
+        <article class="work-item">
+            <img src="/images/ACTRESS_LANA_LEHMANN.png" alt="ACTRESS LANA LEHMANN" style="width: 360px; height: auto; margin-bottom: 18px;">
+            <h2>Nº 88 — ACTRESS LANA LEHMANN</h2>
+            <p><a href="https://vimeo.com/324209864" target="_blank" rel="noopener">View work</a></p>
+        </article>
+
+</section>
+    </main>
+
+</body>
+</html>

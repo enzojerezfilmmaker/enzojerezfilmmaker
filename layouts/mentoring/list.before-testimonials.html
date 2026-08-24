@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ .Title }} — Enzo Jerez</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b0b0b;
+            color: #f2f2f2;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        nav {
+            width: 100%;
+            padding: 30px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .mentoring-page {
+            padding: 120px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .eyebrow {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            opacity: 0.6;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 7vw, 6rem);
+            font-weight: normal;
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            margin-bottom: 70px;
+        }
+
+        .intro {
+            max-width: 760px;
+            font-size: 1.3rem;
+            line-height: 1.7;
+            margin-bottom: 110px;
+        }
+
+        .mentoring-list {
+            border-top: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .mentoring-item {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 40px;
+            padding: 55px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .number {
+            font-family: Arial, sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            opacity: 0.5;
+            padding-top: 8px;
+        }
+
+        .mentoring-item h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: normal;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            margin-bottom: 25px;
+        }
+
+        .mentoring-item p {
+            max-width: 700px;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            opacity: 0.85;
+        }
+
+        .mentoring-item:hover h2 {
+            opacity: 0.65;
+            transition: opacity 0.3s ease;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                padding: 25px 6%;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 0.65rem;
+            }
+
+            .mentoring-page {
+                padding: 80px 6%;
+            }
+
+            .intro {
+                font-size: 1.1rem;
+                margin-bottom: 80px;
+            }
+
+            .mentoring-item {
+                grid-template-columns: 50px 1fr;
+                gap: 15px;
+                padding: 40px 0;
+            }
+
+            .mentoring-item h2 {
+                font-size: 2rem;
+            }
+
+            .mentoring-item p {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Enzo Jerez</div>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#work">Work</a></li>
+            <li><a href="/workshops/">Workshops</a></li>
+            <li><a href="/mentoring/">Mentoring</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="mentoring-page">
+
+        <div class="eyebrow">{{ .Title }}</div>
+
+        <h1>{{ .Title }}</h1>
+
+        <div class="intro">
+            I offer mentoring for people who want to develop their ability to create, communicate, and collaborate through audiovisual work.
+        </div>
+
+        <section class="mentoring-list">
+
+            <article class="mentoring-item">
+                <div class="number">01</div>
+                <div>
+                    <h2>On-Camera Expression</h2>
+                    <p>
+                        Mentoring for people who want to express themselves naturally and effectively in front of the camera, through facial expression, body language, and physical presence.
+                    </p>
+                </div>
+            </article>
+
+            <article class="mentoring-item">
+                <div class="number">02</div>
+                <div>
+                    <h2>Creative Collaboration</h2>
+                    <p>
+                        Mentoring for independent audiovisual technicians who want to build creative teams of artists and technicians capable of working together in a synergistic, effective, and mutually supportive way.
+                    </p>
+                </div>
+            </article>
+
+            <article class="mentoring-item">
+                <div class="number">03</div>
+                <div>
+                    <h2>Artistic Self-Production</h2>
+                    <p>
+                        Mentoring for artists who want to produce audiovisual work independently, for themselves and through their own creative vision, while achieving both technical quality and artistic coherence.
+                    </p>
+                </div>
+            </article>
+
+            <article class="mentoring-item">
+                <div class="number">04</div>
+                <div>
+                    <h2>Entering Audiovisual Storytelling</h2>
+                    <p>
+                        Mentoring for people without an established artistic background who want to explore the creation of audiovisual stories and discover their own creative possibilities through filmmaking.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

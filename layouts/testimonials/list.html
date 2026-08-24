@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} — Enzo Jerez</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b0b0b;
+            color: #f2f2f2;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        nav {
+            width: 100%;
+            padding: 30px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .page {
+            padding: 120px 80px;
+            max-width: 1100px;
+        }
+
+        .eyebrow {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            opacity: 0.6;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 7vw, 6rem);
+            font-weight: normal;
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .intro {
+            max-width: 760px;
+            font-size: 1.25rem;
+            line-height: 1.7;
+            margin-bottom: 100px;
+        }
+
+        .testimonial {
+            margin-bottom: 130px;
+        }
+
+        .testimonial-text {
+            max-width: 760px;
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 45px;
+        }
+
+        .poster {
+            width: 100%;
+            max-width: 850px;
+            display: block;
+            margin-bottom: 45px;
+        }
+
+        .media-title {
+            font-family: Arial, sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            opacity: 0.6;
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: 50px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 900px;
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        .language {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            opacity: 0.5;
+            margin-bottom: 20px;
+        }
+
+        .references {
+            border-top: 1px solid #333;
+            padding-top: 60px;
+        }
+
+        .references a {
+            color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.08em;
+        }
+
+        .references a:hover {
+            opacity: 0.6;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                padding: 25px 6%;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 0.65rem;
+            }
+
+            .page {
+                padding: 80px 6%;
+            }
+
+            .intro,
+            .testimonial-text {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Enzo Jerez</div>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#work">Work</a></li>
+            <li><a href="/workshops/">Workshops</a></li>
+            <li><a href="/mentoring/">Mentoring</a></li>
+            <li><a href="/testimonials/">Testimonials</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="page">
+
+        <div class="eyebrow">{{ .Title }}</div>
+
+        <h1>{{ .Title }}</h1>
+
+        <div class="intro">
+            {{ .Content }}
+        </div>
+
+        <section class="testimonial">
+
+            <h2>From the First Spark to the First Film</h2>
+
+            <p class="testimonial-text">
+                A first experience in filmmaking can begin with a simple spark,
+                an idea, and the enthusiasm to bring it to life.
+                This is a glimpse into one participant's first audiovisual
+                experience through mentoring.
+            </p>
+
+            <img
+                src="/images/testimonials/mentoring-poster.jpeg"
+                alt="Poster of the participant's short film"
+                class="poster">
+
+            <div class="media-title">Testimonial</div>
+
+            <div class="language">Audio testimonial — Spanish</div>
+
+            <audio controls>
+                <source
+                    src="/audio/testimonials/mentoring-testimonial.ogg"
+                    type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="media-title">The Making Of</div>
+
+            <p class="language">Behind the scenes of the creative process</p>
+
+            <video controls>
+                <source
+                    src="/videos/testimonials/mentoring-making-of.mp4"
+                    type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+        </section>
+
+        <section class="testimonial">
+
+            <h2>Organic Filmmaking & Directing</h2>
+
+            <p class="testimonial-text">
+                An actress reflects on Enzo Jerez's organic approach to
+                filmmaking and directing.
+            </p>
+
+            <div class="media-title">Video testimonial</div>
+
+            <div class="language">Valeria Germain — Actress | English</div>
+
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 50px;">
+                <iframe
+                    src="https://player.vimeo.com/video/320934277"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+
+        <section class="references">
+
+            <h2>External References</h2>
+
+            <p class="testimonial-text">
+                Selected external references to Enzo Jerez's audiovisual work
+                and creative practice.
+            </p>
+
+            <p>
+                <a href="https://vimeo.com/320934277" target="_blank">
+                    Vimeo — View external reference
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
