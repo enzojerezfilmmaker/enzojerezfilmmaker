@@ -201,7 +201,7 @@
 
         <section class="workshop-main">
             <img
-                src="/images/workshops/Principal.jpg"
+                src="{{ "images/workshops/" | relURL }}Principal.jpg"
                 alt="Filmmaking workshop"
                 class="workshop-main-image">
         </section>
@@ -222,7 +222,7 @@
 
             {{ range (slice 1 2 3 4 5 8 10 13 15) }}
                 <img
-                    src="/images/workshops/{{ . }}de15.jpeg"
+                    src="{{ "images/workshops/" | relURL }}{{ . }}de15.jpeg"
                     alt="Filmmaking workshop"
                     class="workshop-image"
                     loading="lazy">
